@@ -15,7 +15,7 @@
 				text-align:center;
 			}
 		</style>
-		</head>
+	</head>
 	<body>
 		<div class="container-fluid" style="background-color:pink;">
 			<div class="row row-center">
@@ -24,5 +24,16 @@
 				</div>
 			</div>
 		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-2" style="background-color:yellow>
+					<h4>col1</h4>
+				</div>
+				<div> class="col-lg-10" style="background-color:blue">
+					<h4>col2</h4>
+				</div>
+			</div>
+		</div>
+		
 	</body>
 </html>
