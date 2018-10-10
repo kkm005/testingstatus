@@ -43,8 +43,39 @@
 						<input class="btn btn-success btn-block" type="submit" value="บันทึก">
 					</div>
 				</div>
-				<div class="col-lg-10" style="background-color:blue;">
-					<h4>col2</h4>
+				<div class="col-lg-10" style="background-color:CYAN;">
+					<div class="table-reponsive">
+						<table class="table table-bordered">
+							<thead>
+								<tr>
+									<th>ชื่อ</th>
+									<th>นามสกุล</th>
+									<th>Email</th>
+									<th>999</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>John</td>
+									<td>Doe</td>
+									<td>john@example.com</td>
+									<td>1</td>
+								</tr>
+								<tr>
+									<td>Mary</td>
+									<td>Moe</td>
+									<td>mary@example.com</td>
+									<td>2</td>
+								</tr>
+								<tr>
+									<td>July</td>
+									<td>Dooley</td>
+									<td>july@example.com</td>
+									<td>3</td>
+								</tr>
+							</tbody>
+						  </table>
+					</div>	  
 				</div>
 			</div>
 		</div>
