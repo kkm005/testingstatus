@@ -19,7 +19,7 @@
 	<body>
 		<div class="container-fluid" style="background-color:pink;">
 			<div class="row row-center">
-				<div class="col-lg-4 offset-lg-4" style="background-color:pink;">
+				<div class="col-lg-4 offset-lg-4" style="background-color:MAGENTA;">
 					<h4>บันทึกข้อมูล</h4>
 				</div>
 			</div>
@@ -43,7 +43,7 @@
 						<input class="btn btn-success btn-block" type="submit" value="บันทึก">
 					</div>
 				</div>
-				<div class="col-lg-10" style="background-color:MAGENTA;">
+				<div class="col-lg-10" style="background-color:yellow;">
 					<div class="table-reponsive">
 						<table class="table table-bordered">
 							<thead>
