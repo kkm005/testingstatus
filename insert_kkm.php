@@ -17,9 +17,9 @@
 		</style>
 		<?php
 			$server = "us-cdbr-iron-east-01.cleardb.net";
-			$username = "bde5ae12f51085";
-			$password = "3c146dba";
-			$db = "heroku_4535866affeb67f";
+			$username = "b58baa02f9ab8a";
+			$password = "797139ad";
+			$db = "heroku_ea07ab03ff13442";
 			$conn = new mysqli($server, $username, $password, $db);
 			mysqli_query($conn, "SET NAMES utf8");
 		?>
@@ -65,7 +65,7 @@
 							</thead>
 							<tbody>
 								<?php
-									$sql = "SELECT * FROM tbl_nuthapong";
+									$sql = "SELECT * FROM tbl_kkm";
 									$query = mysqli_query($conn,$sql);
 									while($obj = mysqli_fetch_array($query))
 									{
