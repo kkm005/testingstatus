@@ -29,7 +29,7 @@
 				<div class="col-lg-2" style="background-color:yellow;">
 					<h4>col1</h4>
 					</div>
-				<div> class="col-lg-10" style="background-color:blue;">
+				<div class="col-lg-10" style="background-color:pink;">
 					<h4>col2</h4>
 				</div>
 			</div>
