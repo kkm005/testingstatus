@@ -64,24 +64,18 @@
 								</tr>
 							</thead>
 							<tbody>
-								<tr>
-									<td>John</td>
-									<td>Doe</td>
-									<td>john@example.com</td>
-									<td>1</td>
-								</tr>
-								<tr>
-									<td>Mary</td>
-									<td>Moe</td>
-									<td>mary@example.com</td>
-									<td>2</td>
-								</tr>
-								<tr>
-									<td>July</td>
-									<td>Dooley</td>
-									<td>july@example.com</td>
-									<td>3</td>
-								</tr>
+								<?php
+									$sql = "SELECT * FROM tbl_nuthapong";
+									$query = mysqli_query($conn,$sql);
+									while($obj = mysqli_fetch_array($query))
+									{
+										echo "<tr>";
+										echo "<td>".$obj["name"]."</td>";
+										echo "<td>".$obj["lastname"]."</td>";
+										echo "<td>".$obj["email"]."</td>";
+										echo "</tr>";
+									}
+								?>
 							</tbody>
 						  </table>
 					</div>	  
