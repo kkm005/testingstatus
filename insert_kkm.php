@@ -15,6 +15,15 @@
 				text-align:center;
 			}
 		</style>
+		<?php
+			$server = "us-cdbr-iron-east-01.cleardb.net";
+			$username = "bde5ae12f51085";
+			$password = "3c146dba";
+			$db = "heroku_4535866affeb67f";
+			$conn = new mysqli($server, $username, $password, $db);
+			mysqli_query($conn, "SET NAMES utf8");
+		?>
+		
 	</head>
 	<body>
 		<div class="container-fluid" style="background-color:pink;">
