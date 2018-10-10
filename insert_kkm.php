@@ -43,7 +43,7 @@
 						<input class="btn btn-success btn-block" type="submit" value="บันทึก">
 					</div>
 				</div>
-				<div class="col-lg-10" style="background-color:CYAN;">
+				<div class="col-lg-10" style="background-color:MAGENTA;">
 					<div class="table-reponsive">
 						<table class="table table-bordered">
 							<thead>
