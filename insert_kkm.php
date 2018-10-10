@@ -62,7 +62,6 @@
 									<th>ชื่อ</th>
 									<th>นามสกุล</th>
 									<th>Email</th>
-									<th>999</th>
 								</tr>
 							</thead>
 							<tbody>
